@@ -29,6 +29,6 @@
 - **실행 엔진(Execution Engine)**
   - 바이트코드 해석기(Bytecode Interpreter): 바이트 코드 명령어를 읽고 해석하여 실행한다.
   - JIT 컴파일러(Just In Time Compiler): 바이트 코드를 네이티브 코드로 변환하여 실행 속도를 향상한다.
-  - 가비지 컬렉터(Garbage Collector): 힙 영역에서 더이상 사용하지 않는 객체를 제거하여 메모리 누수를 방지한다.
+  - [가비지 컬렉터(Garbage Collector)](가비지컬렉터.md): 힙 영역에서 더이상 사용하지 않는 객체를 제거하여 메모리 누수를 방지한다.
 - **JNI(Java Native Method Interface)**: 자바가 아닌 다른 언어로 만들어진 애플리케이션과 상호 작용할 수 있는 인터페이스를 제공한다.
 - **Native Method Libraries**: C, C++로 작성된 라이브러리의 모음이다.
